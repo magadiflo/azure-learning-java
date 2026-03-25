@@ -74,9 +74,9 @@ Tabla: clientes
 ┌────┬───────────────┬──────────────────────┬──────────┐
 │ id │ nombre        │ email                │ telefono │
 ├────┼───────────────┼──────────────────────┼──────────┤
-│  1 │ Juan Pérez    │ juan@email.com        │ 987654   │
-│  2 │ María López   │ maria@email.com       │ 923456   │
-│  3 │ Carlos Ruiz   │ carlos@email.com      │ NULL     │
+│  1 │ Juan Pérez    │ juan@email.com       │ 987654   │
+│  2 │ María López   │ maria@email.com      │ 923456   │
+│  3 │ Carlos Ruiz   │ carlos@email.com     │ NULL     │
 └────┴───────────────┴──────────────────────┴──────────┘
 ```
 
@@ -152,15 +152,15 @@ requiere migración ni bloqueo.
 │  │                    BASE DE DATOS                       │  │
 │  │                   "ecommerce-db"                       │  │
 │  │                                                        │  │
-│  │  ┌──────────────────┐    ┌──────────────────┐         │  │
-│  │  │    CONTENEDOR    │    │    CONTENEDOR    │         │  │
-│  │  │   "productos"    │    │    "pedidos"     │         │  │
-│  │  │                  │    │                  │         │  │
-│  │  │  { Documento 1 } │    │  { Documento 1 } │         │  │
-│  │  │  { Documento 2 } │    │  { Documento 2 } │         │  │
-│  │  │  { Documento 3 } │    │  { Documento 3 } │         │  │
-│  │  │  PK=/categoria   │    │  PK=/clienteId   │         │  │
-│  │  └──────────────────┘    └──────────────────┘         │  │
+│  │  ┌──────────────────┐    ┌──────────────────┐          │  │
+│  │  │    CONTENEDOR    │    │    CONTENEDOR    │          │  │
+│  │  │   "productos"    │    │    "pedidos"     │          │  │
+│  │  │                  │    │                  │          │  │
+│  │  │  { Documento 1 } │    │  { Documento 1 } │          │  │
+│  │  │  { Documento 2 } │    │  { Documento 2 } │          │  │
+│  │  │  { Documento 3 } │    │  { Documento 3 } │          │  │
+│  │  │  PK=/categoria   │    │  PK=/clienteId   │          │  │
+│  │  └──────────────────┘    └──────────────────┘          │  │
 │  └────────────────────────────────────────────────────────┘  │
 └──────────────────────────────────────────────────────────────┘
 ```
@@ -187,8 +187,8 @@ Cosmos DB soporta **múltiples APIs** — puedes usarlo como si fuera diferentes
                     │   (Motor único)     │
                     └──────────┬──────────┘
                                │
-         ┌─────────────────────┼─────────────────────┐
-         │                     │                     │
+         ┌─────────────────────┼────────────────────┐
+         │                     │                    │
    ┌─────▼──────┐      ┌───────▼─────┐      ┌───────▼──────┐
    │  API NoSQL │      │ API MongoDB │      │ API Cassandra│
    └────────────┘      └─────────────┘      └──────────────┘
