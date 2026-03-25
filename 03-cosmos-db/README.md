@@ -27,8 +27,8 @@
 ## 🌌 1. ¿Qué es Cosmos DB?
 
 **Azure Cosmos DB** es la base de datos **NoSQL distribuida globalmente** de Microsoft Azure. Está diseñada para
-aplicaciones que necesitan **baja latencia garantizada** (menos de 10 milisegundos), **escala masiva** y *
-*disponibilidad global** sin importar en qué parte del mundo estén los usuarios.
+aplicaciones que necesitan **baja latencia garantizada** (menos de 10 milisegundos), **escala masiva** y
+**disponibilidad global** sin importar en qué parte del mundo estén los usuarios.
 
 ### La versión larga (con contexto real)
 
@@ -936,8 +936,8 @@ con autoscale para adaptarse al tráfico variable. Ofrece cinco modelos de consi
 más usado en apps web. Desde Spring Boot se integra con `spring-cloud-azure-starter-data-cosmos` usando
 `CosmosRepository`, que funciona igual que `JpaRepository`. Lo elegiría sobre Azure SQL cuando los datos tienen
 estructura variable, la app necesita escala global, la latencia debe ser menor a 10ms, o el volumen supera lo que una BD
-relacional maneja eficientemente. En arquitecturas modernas lo ideal es usar **ambos** — patrón conocido como *
-*persistencia políglota**.
+relacional maneja eficientemente. En arquitecturas modernas lo ideal es usar **ambos** — patrón conocido como
+**persistencia políglota**.
 
 ---
 
