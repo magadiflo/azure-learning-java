@@ -410,8 +410,8 @@ eliminar y ejecutar queries.
 | App con usuarios en múltiples países  | ⚠️            | ✅            |
 
 > 💡 **La respuesta madura en entrevista:** En arquitecturas modernas no es excluyente. Lo ideal es usar **ambos**: Azure
-> SQL para datos transaccionales críticos y Cosmos DB para alta escala y baja latencia. Este patrón se llama *
-*persistencia políglota**.
+> SQL para datos transaccionales críticos y Cosmos DB para alta escala y baja latencia. Este patrón se llama
+> **persistencia políglota**.
 
 ---
 
