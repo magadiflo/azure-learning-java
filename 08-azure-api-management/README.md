@@ -940,10 +940,6 @@ Si alguien te pregunta por Azure en una entrevista, ya puedes responder con crit
 
 ### Tu ventaja competitiva
 
-Dijiste al inicio que ibas a postular a Encora con 2 años de experiencia junior para una posición de +4 años. Ahora
-tienes algo que muy pocos desarrolladores Java junior tienen: **conocimiento teórico sólido y documentado de todos los
-servicios Azure que piden en el 99% de las ofertas del mercado peruano**.
-
 En una entrevista, cuando te pregunten por Azure, no dirás *"no tengo experiencia"*. Dirás:
 
 > *"No he trabajado directamente con Azure en producción, pero he estudiado en profundidad todos los servicios que
